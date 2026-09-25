@@ -304,8 +304,13 @@ h1 {
 .card-name { font-size: 1.7rem; line-height: 1.15; }
 .card-line { margin: 0; color: var(--muted); flex-grow: 1; }
 
-.card-tags { display: flex; flex-wrap: wrap; gap: 6px 12px; }
-.tag { font-size: 0.82rem; font-weight: 500; }
+.card-tags { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; }
+.tag { font-size: 0.8rem; font-weight: 500; color: var(--muted); }
+.tag-industry {
+  color: var(--ink);
+  padding: 2px 8px;
+  border: 1px solid var(--line);
+}
 
 .card-foot {
   display: flex;
